@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# 🏠 HECOS Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive React dashboard application for real-time data visualization and management.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- 📊 Real-time data visualization
+- 📱 Fully responsive design
+- ⚡ Fast and optimized performance
+- 🎨 Modern UI/UX with intuitive navigation
+- 📈 Interactive charts and analytics
+- 🔄 Live data integration
 
-### `npm start`
+## 🚀 Quick Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+| 🌐 Live Demo | 📊 Live Data |
+|:---:|:---:|
+| [![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Now-brightgreen?style=for-the-badge&logo=vercel)](https://hecos-dashboard.vercel.app/) | [![Google Sheets](https://img.shields.io/badge/Live%20Data-Google%20Sheets-34A853?style=for-the-badge&logo=google-sheets)](https://docs.google.com/spreadsheets/d/1_5wFyACpq1GsYw3Dw_01UqGOn5gAJH-pCQ-kpxIRjiU/edit?usp=sharing) |
+| Access the live application | View real-time data source |
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+- **Frontend**: React.js
+- **Styling**: CSS3
+- **Build Tool**: Create React App
+- **Deployment**: Vercel
+- **Data Source**: Google Sheets API
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📦 Installation & Setup
 
-### `npm run build`
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Srikar131/hecos-dashboard.git
+   cd hecos-dashboard
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Start development server**
+   ```bash
+   npm start
+   ```
+   The app will run on [http://localhost:3000](http://localhost:3000)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎯 Available Scripts
 
-### `npm run eject`
+| Command | Description |
+|---------|-------------|
+| `npm start` | Runs the app in development mode |
+| `npm test` | Launches the test runner |
+| `npm run build` | Builds the app for production |
+| `npm run eject` | Ejects from Create React App (⚠️ one-way operation) |
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📱 Responsive Design
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Desktop](https://img.shields.io/badge/Desktop-✅-success)
+![Tablet](https://img.shields.io/badge/Tablet-✅-success)
+![Mobile](https://img.shields.io/badge/Mobile-✅-success)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+The dashboard is fully responsive and works seamlessly across all device sizes.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🔄 Live Data Integration
 
-## Learn More
+This dashboard connects to a live Google Sheets database for real-time data updates. The data is automatically synchronized and displayed through interactive visualizations.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Data Source**: [Live Google Sheet](https://docs.google.com/spreadsheets/d/1_5wFyACpq1GsYw3Dw_01UqGOn5gAJH-pCQ-kpxIRjiU/edit?usp=sharing)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🌟 Key Highlights
 
-### Code Splitting
+- 🏃‍♂️ **Fast Performance**: Optimized React components for smooth user experience
+- 📊 **Data Visualization**: Interactive charts and graphs
+- 🔒 **Secure**: Safe data handling and API integration
+- 🎨 **Modern Design**: Clean, intuitive, and professional interface
+- 📈 **Scalable**: Built with growth and expansion in mind
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚦 Getting Started
 
-### Analyzing the Bundle Size
+1. 🌐 **[Visit Live Demo](https://hecos-dashboard.vercel.app/)** to see the dashboard in action
+2. 📊 **[View Live Data](https://docs.google.com/spreadsheets/d/1_5wFyACpq1GsYw3Dw_01UqGOn5gAJH-pCQ-kpxIRjiU/edit?usp=sharing)** to see the data source
+3. 💻 Clone and run locally for development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+⭐ **Star this repository if you find it helpful!** ⭐
